@@ -1,0 +1,170 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap&subset=cyrillic-ext');
+@font-face {
+	font-family: 'VDS';
+	src: url('../fonts/VDS.woff2') format('woff2'),
+		 url('../fonts/VDS.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'VDS';
+	src: url('../fonts/VDS-Italic.woff2') format('woff2'),
+		 url('../fonts/VDS-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "VDS", sans-serif;
+	line-height: 1;
+	background-color: rgba(73, 52, 24, 0.1);
+	text-align: justify;
+}
+/* ------------------------------ */
+
+header {
+	background-color: rgba(61, 42, 18, 0.5);
+	text-align: center;
+	padding: 20px;
+}
+
+header h1, header h2 {
+	color:#e4e2e2;
+	font-family: "Pacifico", fantasy;
+	text-transform: lowercase;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+	text-shadow: 3px 1px 3px #241212;
+}
+
+.image {
+	width: 100%;
+	max-width: 800px;
+}
+
+.main_text {
+	font-size: 46px;
+	line-height: 220%;
+}
+
+.main_text2 {
+	font-size: 26px;
+	line-height: 220%;
+	word-spacing: 1px;
+}
+
+
+
+nav {
+	display: inline-block;
+	padding: 25px 20px;
+	background-color: rgba(73, 52, 24, 0.3);
+	color: #241212;
+}
+
+
+
+
+
+.about {
+	font-size: 18px;
+	color:#e4e2e2;
+	line-height: 170%;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+ol {
+	text-align: left;
+	/*line-height: 150%;*/
+}
+
+li {
+	line-height: 150%;
+	text-decoration: underline;
+}
+
+header p {
+	color:#e4e2e2;	
+	padding: 15px 10px;
+	text-align: justify;
+}
+
+main h2 {
+	background-color: rgba(73, 52, 24, 0.3);
+	font-size: 26px;
+	line-height: 200%;
+	text-align: center;
+	text-shadow: -2px -3px 2px #e4e2e2;
+
+}
+
+main p {
+	line-height: 150%;
+}
+
+.conclusion h2 {
+	background-color: rgba(73, 52, 24, 0.3);
+	text-align: center;
+	line-height: 200%;
+	font-size: 30px;
+	font-family: "Pacifico", fantasy;
+	text-shadow: 5px 2px 2px #e4e2e2;
+	letter-spacing: 4px;
+	font-weight: 800;
+	color: #241212;
+
+}
+
+
+.conclusion p {
+	text-indent: 15px;
+	line-height: 200%;
+}
+
+footer ol {
+	color: #3a1f1f;
+	text-align: center;
+}
+
+.conclusion li {
+	color: #660717;
+}
